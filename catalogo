@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;700&display=swap" 
+      rel="stylesheet" 
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>CineMaxPlay</title>
+</head>
+<body>
+    <header>CineMaxPlay</header>
+
+    <!-- Seção de destaque -->
+    <section class="destaque">
+        <div class="chamada-texto">
+            <h1>O FILME MAIS ESPERADO DO ANO</h1>
+            <p>Uma aventura épica que vai te prender do início ao fim.</p>
+        </div>
+
+        <div>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/5PSNL1qE6VY" 
+                title="Trailer Avatar 2" 
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Categoria -->
+    <section class="categoria">
+        <h2>🔥 Em alta</h2>
+        <div class="categoria-videos">
+            <img src="https://m.media-amazon.com/images/I/81GkA4ZkO+L._AC_SL1500_.jpg" alt="Filme 1" />
+            <img src="https://m.media-amazon.com/images/I/81niN1b3v-L._AC_SL1500_.jpg" alt="Filme 2" />
+            <img src="https://m.media-amazon.com/images/I/91zQlvFYKGL._AC_SL1500_.jpg" alt="Filme 3" />
+            <img src="https://m.media-amazon.com/images/I/81D+2c1n9VL._AC_SL1500_.jpg" alt="Filme 4" />
+        </div>
+    </section>
+</body>
+</html>
+
